@@ -1,0 +1,28 @@
+
+.wrapper{
+    background-image: url(img/fondo.jpg);
+    background-position: right; 
+    background-size: cover;height: 110vh;
+}
+.logo{
+    max-width: 15vw; 
+    min-width: 10vw;
+}
+
+.title {
+    font-family: 'Aguafina Script', cursive;
+    font-weight: 500;
+    font-size: 9vw;
+    color: rgb(244, 32, 137);
+    margin-top: -1.2vw;
+    margin-bottom: -2vw;
+    margin-left: 1.8vw;
+}
+.subtitle {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 3vw;
+    font-weight: 800;
+    color: #fcee2c;
+    margin-left:4.8vw;
+    text-shadow: 1px 3px 7px rgba(244, 32, 137, 0.91);
+}
