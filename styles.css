@@ -83,4 +83,22 @@ span{
     .centrar{
         margin-top: 10px !important;
     }
+    .logo{
+        margin-left: 5vw;
+    }
+    .title {
+        margin-top: -2vw;
+        font-size: 15vw;
+    }
+
+    .subtitle {
+        margin-top: -3vw;
+        margin-left: 5vw;
+        font-size: 5.5vw;
+    }
+}
+@media (max-width: 768px) {
+    .subtitle{
+        font-size: 6vw;
+    }
 }
