@@ -26,3 +26,55 @@
     margin-left:4.8vw;
     text-shadow: 1px 3px 7px rgba(244, 32, 137, 0.91);
 }
+.myForm{
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 30px;
+}
+.myFormHeader{
+    padding-top: 5px;
+    background-color: #fcee2c81; 
+    border-radius: 30px 30px 0px 0px;
+    height: 40px;   
+}
+.myFormTitle{
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: rgb(244, 32, 137);
+    font-size: 22px;
+}
+.myFormIcon{
+    border-radius: 30px 0px 0px 30px !important; 
+    background-color:rgba(255, 255, 255, 0.4) !important;
+}
+.myFormText{
+    border-radius: 0px 30px 30px 0px !important; 
+    background-color:rgba(255, 255, 255, 0.4)  !important;
+}
+span{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.boton {
+    margin: 0;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: rgb(244, 32, 137);
+    background-color: rgb(252, 238, 44, 0.8);
+    text-align: center;
+    height: fit-content;
+}
+
+.centrar{
+    margin-top: 225px !important;
+}
+
+.boton:hover {
+    
+  transform: scale(1.1);
+    background-color: rgb(244, 32, 137);
+    color: #fcee2c;
+}
