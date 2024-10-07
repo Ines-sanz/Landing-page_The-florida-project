@@ -78,6 +78,20 @@ span{
     background-color: rgb(244, 32, 137);
     color: #fcee2c;
 }
+.trailer {
+    margin-left: -15px;
+    width: 100%;
+    float: left;
+    transition: all 5ms ease;
+    object-fit: cover;
+    object-position: left;
+   
+}
+
+.trailer:hover {
+    transform: scale(1.1);
+    box-shadow: -1px 2px 30px 9px rgba(244, 32, 137, 0.4);
+}
 
 @media(max-width:992px) {
     .centrar{
@@ -101,4 +115,7 @@ span{
     .subtitle{
         font-size: 6vw;
     }
+    .trailer{
+        margin-left: 0;
+       }
 }
