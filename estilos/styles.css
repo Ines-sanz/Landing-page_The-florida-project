@@ -1,6 +1,6 @@
 
 .wrapper{
-    background-image: url(img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-position: right; 
     background-size: cover;height: 110vh;
 }
@@ -70,6 +70,7 @@ span{
 
 .centrar{
     margin-top: 225px !important;
+    
 }
 
 .boton:hover {
@@ -118,4 +119,8 @@ span{
     .trailer{
         margin-left: 0;
        }
+    
+    .centrar{
+        margin: auto;
+    }
 }
