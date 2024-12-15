@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #fdd2d7 !important;
+    font-family: 'Poppins', sans-serif !important;
+    height: 100vh;
+}
+
+.clear-flex {
+    clear: both;
+}
+
+.cabecera {
+
+    padding: 6px;
+    height: 26vw;
+    background-size: cover;
+    background-image: url(../img/floridaprojectweb.jpg);
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.cabecera h1 {
+    position: relative;
+    margin: 0;
+    margin-right: 2vw;
+    text-align: center;
+    font-family: 'Aguafina Script', cursive;
+    font-size: 16.5vw;
+    color: rgb(244, 32, 137);
+    line-height: 23vw;
+    z-index: 1;
+}
+
+.menuprincipal {
+    margin-left: 15% !important;
+    height: 40px;
+    margin: auto;
+}
+
+.menuprincipal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menuprincipal a {
+    margin: 10px auto 0 auto;
+    background-color: rgb(252, 238, 43, 0.7);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    width: 20%;
+    color: #f42089;
+    line-height: 40px;
+    transition: all 0.3s ease;
+}
+
+.izquierda {
+    transition: all 0.3s ease;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.derecha {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.menuprincipal a:hover {
+    background-color: rgb(244, 32, 137);
+    color: rgb(252, 238, 43);
+    font-size: 1.5rem;
+}
+
+
+
+.sinopsis {
+    font-family: 'Playfair Display', serif;
+    color: rgb(244, 32, 137);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.imagensinopsis {
+    width: 95%;
+    -webkit-box-shadow: -1px 2px 18px 3px rgba(244, 32, 137, 0.78);
+    box-shadow: -1px 2px 18px 3px rgba(244, 32, 137, 0.78);
+}
+
+.personajes {
+    min-height: 670px;
+    width: 100%;
+    margin: 0;
+    background-image: url(/img/hotelarcoiriswebex.jpg);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+}
+
+.my-card {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 30px !important;
+}
+
+.my-card:hover {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+
+.personajes h5 {
+    font-family: 'Aguafina Script';
+    color: #fcee2b;
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.separador {
+    height: auto;
+    background: #fdd2d7;
+    background: linear-gradient(0deg, rgba(253, 210, 215, 1) 20%, #fcee2b 90%);
+    margin: auto;
+}
+
+.resena {
+    width: 20%;
+}
+
+.resena a {
+    text-decoration: none;
+    display: block;
+    color: #f42089;
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+}
+
+.valoraciones {
+    width: 80%;
+    margin: auto !important;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid rgb(244, 32, 137) 2px;
+    height: auto;
+    justify-content: space-around;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.resenas {
+    margin: auto !important;
+    justify-content: center;
+}
+
+.comentarios {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 55%;
+}
+
+.comentarios a {
+    text-decoration: none;
+    width: 95%;
+}
+
+.comentarios h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(244, 32, 137);
+    -webkit-transition: all 0.5ms ease;
+    -moz-transition: all 0.5ms ease;
+    -ms-transition: all 0.5ms ease;
+    -o-transition: all 0.5ms ease;
+    transition: all 0.5ms ease;
+}
+
+.comentarios a p {
+    width: 95%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+.comentarios a h3:hover {
+    transform: scale(1.01);
+    text-decoration: underline rgb(244, 32, 137);
+
+}
+
+.premios {
+    color: #f42089;
+    font-size: larger;
+    margin-top: 100px;
+    float: right;
+}
+
+.separadorimg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(/img/autostop.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 500px;
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+#trailer {
+    margin-left: 10vw;
+}
+
+.florida {
+    height: auto;
+    background: rgb(253, 210, 215);
+    background: linear-gradient(180deg, #fdd2d7 7%, rgba(244, 32, 137, 1) 84%);
+}
+
+.datos {
+    color: #ffffff;
+    float: left;
+    width: 20%;
+
+}
+
+.cierre {
+    margin-bottom: 0;
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+.cierre a {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.cierre img {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cierre a:hover {
+    font-size: 1.3rem;
+    color: #fcee2b;
+
+}
+
+@media(max-width:767px) {
+    .menuprincipal{
+         margin-left: 0% !important;
+    }
+    .menuprincipal a{
+      
+        font-size: 13px; 
+        width: 25%;
+    }
+    .cabecera {
+        height: 40vw;
+    }
+    .datos{
+        width: 40%;
+    }
+}
