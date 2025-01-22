@@ -23,7 +23,7 @@ body {
     padding: 6px;
     height: 26vw;
     background-size: cover;
-    background-image: url(../img/floridaprojectweb.jpg);
+    background-image: url(https://res.cloudinary.com/dtr9ffwyc/image/upload/v1737557397/floridaprojectweb_yl6zjh.jpg);
     background-attachment: fixed;
     background-position-x: center;
 }
@@ -106,7 +106,7 @@ body {
     min-height: 670px;
     width: 100%;
     margin: 0;
-    background-image: url(/img/hotelarcoiriswebex.jpg);
+    background-image: url(https://res.cloudinary.com/dtr9ffwyc/image/upload/v1737557419/hotelarcoiriswebex_pgsamx.jpg);
     background-position-x: center;
     background-position-y: bottom;
     background-size: cover;
@@ -216,7 +216,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image: url(/img/autostop.jpg);
+    background-image: url(https://res.cloudinary.com/dtr9ffwyc/image/upload/v1737557474/autostop_tt857h.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

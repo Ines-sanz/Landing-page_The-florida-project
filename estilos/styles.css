@@ -1,6 +1,6 @@
 
 .wrapper{
-    background-image: url(../img/fondo.jpg);
+    background-image: url(https://res.cloudinary.com/dtr9ffwyc/image/upload/v1737557359/fondo_wcprca.jpg);
     background-position: right; 
     background-size: cover;height: 110vh;
 }
